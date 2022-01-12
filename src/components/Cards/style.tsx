@@ -15,7 +15,5 @@ export const PokeCards: CSS.Properties = {
   flexWrap: "wrap",
 };
 
-const style = { HomeStyle, PokeCards };
 
-export default { style };
 
