@@ -1,0 +1,36 @@
+.CardPoke {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  background-color: #f7f7f9;
+  border-radius: 3%;
+  margin-top: 3%;
+}
+.CardPoke:hover {
+  background-color: #94d97e;
+}
+.CardPoke:active {
+  background-color: #373299;
+}
+.ImgCardPoke {
+  width: 50vw;
+  max-width: 140px;
+  height: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+.PokeId {
+  display: flex;
+  font-family: Roboto;
+  color: #373299;
+}
+.PokeName {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  font-family: Roboto;
+  color: #373299;
+}
